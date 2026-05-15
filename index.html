@@ -16,12 +16,34 @@ img{
     height:auto;
     display:block;
 }
+
+.desktop{
+    display:block;
+}
+
+.mobile{
+    display:none;
+}
+
+@media only screen and (max-width: 768px){
+
+.desktop{
+    display:none;
+}
+
+.mobile{
+    display:block;
+}
+
+}
 </style>
 </head>
 
 <body>
 
-<img src="WEB NEXO.png">
+<img class="desktop" src="WEB NEXO.png">
+
+<img class="mobile" src="son web.png">
 
 </body>
 </html>
